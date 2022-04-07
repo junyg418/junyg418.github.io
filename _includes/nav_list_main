@@ -38,4 +38,13 @@
                 {% endfor %}
             </ul>
     </li>
+    <li>
+
+        {% for category in site.categories %}
+            {% if category[0] == "bkj" %}
+                <li><a href="/categories/bkj" class="">백준 ({{category[1].size}})</a></li>
+            {% endif %}
+        {% endfor %}
+    </li>
+
 </nav>
