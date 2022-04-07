@@ -1,12 +1,12 @@
 ---
-title: "blog 관련"
-permalink: /categories/blog/
+title: "백준"
+permalink: /categories/bkj/
 layout: category
 author_profile: true
-taxonomy: blog
+taxonomy: bkj
 ---
 
-blog 관련이에요.
+백준 문제 풀이
 
-{% assign posts = site.categories.blog %}
+{% assign posts = site.categories.bkj %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
