@@ -1,5 +1,6 @@
 ---
 title: "복잡도"
+excerpt: "복잡도에 관한 간단한 정리"
 
 categories:
   -algorithm
